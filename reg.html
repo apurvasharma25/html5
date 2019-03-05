@@ -1,0 +1,52 @@
+<html>
+<head>
+<title>reg</title>
+<style>
+body{
+height:auto;
+background-image:url("staff2.jpg");
+background-repeat:no-repeat;
+background-size:cover;
+background-attachment:fixed;
+}
+h1{
+text-align:center;
+font-size:100px;
+font-weight:50px;
+margin-top:50px;
+}
+form{
+    font-size:30px;
+	font-weight:40px;
+	padding:20px 10px 0px 10px;
+	margin:50px 5px 0px 5px;
+	}
+	input{
+	font-size:30px;
+	font-weight:40px;
+	padding:10px 10px 10px 10px;
+	}
+	input[type="submit"] 
+	{
+      background:#141414;
+      color: white;
+    }
+</style>
+</head>
+<body>
+<h1><b>REGISTER</b></h1>
+<form method="post">
+<center>FIRSTNAME:&nbsp;&nbsp;&nbsp;<input type="text" name="firstname" required><br><br>
+LASTNAME:&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="lastname" required><br><br>
+EMAIL:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="email" name="email" required><br><br>
+CONTACT:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="number" name="number" required><br><br>
+DEPARTMENT:<input type="text" name="department" option><br><br>
+GENDER:
+<label for="male">Male</label>
+<input type="radio" name="gender" id="male" value="male">
+<label for="female">Female</label>
+<input type="radio" name="gender" id="female" value="female"><br><br>
+<a href="submit.html"><input type="submit"></a></center>
+</form>
+</body>
+</html>
